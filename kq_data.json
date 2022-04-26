@@ -1,0 +1,199 @@
+{
+    "key_domain" :"global3.hanbiro.com",
+    "key_id" :"ts1",
+    "key_pass" :"matkhau1!",
+    "domain" : "**/XCUIElementTypeTextField[`value == 'Domain'`]",
+    "id":"**/XCUIElementTypeTextField[`value == 'ID'`]",
+    "pass" :"**/XCUIElementTypeSecureTextField[`value == 'Password'`]",
+    "bt_login" :"Log In",
+    "toolbar" : "//XCUIElementTypeToolbar[@name='Toolbar']/XCUIElementTypeOther",
+    "editor":"//*[@id='tinymce']/p",
+    "login" :{
+        "id":"//input[starts-with(@name,'userid')]",
+        "ps":"//input[starts-with(@type,'password')]",
+        "bt_lg":"//button[starts-with(@id,'btn-log')]",
+        "hybrid":"//a[starts-with(@class,'btn-board')]"
+    },
+    "mail":{
+        "menu":"//a[starts-with(@class,'btn-board')]",
+        "bt_write":"//a[starts-with(@class,'ui-auto')]",
+        "bt_send":"//a[starts-with(@class,'off')]",
+        "bt_me":"//a[starts-with(@class,'close')]",
+        "text": "//a[starts-with(@class,'text')]",
+        "to":"//a[starts-with(@class,'tag')]",
+        "subject":"//*[@id='reply-forward-all']/form/div[4]/div[2]/div/span/input",
+        "send":"//*[@id='ngw.mail.list.mail_all']/list-view/div/div[1]/div[3]/div/div[2]/div[1]/div[1]/span/button",
+        "sub_sent":"menu-text ng-binding",
+        "icon":"//*[@id='ngw.mail.list.mail_Sent']/list-view/div/div[1]/div[3]/div[1]/div/div[2]/div[2]/div[2]/a",
+        "list_mail":"//*[@id='message-list']/react-mail-list/div",
+        "mail":"//div",
+        "title1":"//*[@id='message-list']/react-mail-list/div/div[",
+        "title12":"]/div/div/a/span[1]"
+
+    },
+    "board":{
+        "menu":"//a[starts-with(@class,'btn-board')]",
+        "bt_wr":"//button[starts-with(@data-ng-if,'isEnabledWrite()')]",
+        "left":"menu-toggler",
+        "ip_title":"form-field-subject",
+        "title":"Board",
+        "file":"//i[text()='Attach File']",
+        "add_file":"web-uploader-board_7cdecfe6-2fad-429a-aa9b-11762ffc1468_browse",
+        "ifame":"ui-tinymce-1646377708242_ifr",
+        "editor":"//body/p",
+        "bt_save":"//span[text()='Save']",
+        "list_board":"//div[starts-with(@class,'message-item')]",
+        "title_pt":"//div[starts-with(@class,'han-react-list')]"
+    },
+    "task":{
+        "bt_write":"//*[@id='ngw.task.status']/div/div/div[1]/div[1]/button",
+        "bt_save":"//*[@id='ngw.task.list.pdefault']/list-view/div/div[1]/div[3]/div/div[4]/div/button",
+        "title_di" :"//*[@id='diary-write-pdefault']/form/div[1]/div/input",
+        "bt_back":"//*[@id='ngw.task.list.pdefault']/list-view/div/div[1]/div[3]/div/div[2]/div/button",
+        "org":"//*[@id='report-form-write']/div[6]/label/a",
+        "search":"/html/body/div[5]/div/div/div/react-org-tree/div/div[2]/div[1]/div[3]/i",
+        "bt_search" :"/html/body/div[5]/div/div/div/react-org-tree/div/div[2]/div[2]/button[2]",
+        "ip_search" :"/html/body/div[5]/div/div/div/react-org-tree/div/div[2]/div[2]/input",
+        "ts1" :"/html/body/div[5]/div/div/div/react-org-tree/div/div[2]/div[3]/div/div/div/div[1]/div[2]/div/p",
+        "ok":"/html/body/div[5]/div/div/div/react-org-tree/div/div[2]/div[1]/div[4]/i",
+        "name":"//*[@id='report-form-write']/div[6]/div/ul/li/span[1]",
+        "bt_ok":"/html/body/div[5]/div/div/div[3]/button[1]"
+    },
+    "whisper":{
+        "bt_write":"//*[@id='ngw.whisper.container']/list-view/div/div[1]/div[1]/button[2]",
+        "bt_send":"//*[@id='ngw.whisper.container']/list-view/div/div[1]/div[3]/div/div[3]/button",
+        "ic_org":"//*[@id='div-sender']/label/a"
+    },
+    "approval":{
+        "menu":"//*[@id='hybridGrid']/li[9]/a",
+        "bt_write":"//*[@id='ngw.task.status']/div/div/div[1]/div[1]/button",
+        "search":"//html/body/div[5]/div/div/div/react-org-tree/div/div[2]/div[1]/div[3]/i",
+        "org":"//*[@id='report-form-write']/div[6]/label/a",
+        "se_form":"//*[@id='write-form']/div/div[1]/div[4]/div/div/a/span[2]",
+        "form":"//*[@id='ui-select-choices-row-1-4']/div",
+        "send":"//*[@id='ngw.approval.container ']/list-view/div/div[1]/div[3]/div/div[3]/div/div[3]/button/i",
+        "apply":"/html/body/div[6]/div/div/div[3]/button[1]"
+
+    },
+    "contact":{
+        "menu":"//*[@id='hybridGrid']/li[10]/a",
+        "more":"//*[@id='ngw.addrbook.container.addrbook_org_102']/list-view/div/div[1]/div[3]/div/div[1]/div/div/button",
+        "left":"//*[@id='menu-toggler']",
+        "my":"//li[starts-with(@data-section,'my')]",
+        "bt_wri":"//*[@id='ngw.addrbook.container.addrbook_my_102']/list-view/div/div[1]/div[1]/button[2]",
+        "bt_save":"//*[@id='ngw.addrbook.container.addrbook_my_102']/list-view/div/div[1]/div[3]/div/div[3]/button",
+        "folder_na":"//*[@id='user-info']/div[1]/div/select/option[2]",
+        "folder":"//*[@id='user-info']/div[1]/div/select",
+        "name":"//*[@id='user-info']/div[3]/div/input",
+        "bt_modi":"//*[@id='ngw.addrbook.container.addrbook_p102_942']/list-view/div/div[1]/div[3]/div/div[1]/div/button[1]"
+
+    },
+    "msg_contact":{
+        "pass_access":"  +Access menu Contact <Pass>",
+        "fail_access":"  +Access menu Contact <Fail>",
+        "fail_left":"  +Click on icon to open left menu <Fail>",
+        "pass_my":"  +Click on My Contacts folder <Pass>",
+        "fail_my":"  +Click on My Contacts folder <Fail>",
+        "pass_write":"  +Click on write button <Pass>",
+        "fail_write":"  +Click on write button <Fail>",
+        "pass_folder":"  +Choose folder <Pass>",
+        "fail_folder":"  +Choose folder <Fail>",
+        "pass_name":"  +Input contact name  <Pass>",
+        "fail_name":"  +Input contact name <Fail>",
+        "pass_save":"  +Create contact  <Pass>",
+        "fail_save":"  +Create contact <Fail>"
+
+    },
+    "msg_approval" :{
+        "pass_ic_org":"  +Click on org icon <Pass> ",
+        "fail_ic_org":"  +Click on org icon <Fail> ",
+        "pass_ic_search":"  +Click on search icon <Pass> ",
+        "fail_ic_search":"  +Click on search icon <Fail> ",
+        "pass_recipients":"  +Click on add recipent <Pass> ",
+        "fail_recipients":"  +Click on add recipent <Fail> "
+    },
+    "msg_whisper" :{
+        "pass_access":"  +Access menu Whisper <Pass>",
+        "fail_access":"  +Access menu Whisper <Fail>",
+        "pass_write":"  +Click on write button <Pass>",
+        "fail_write":"  +Click on write button <Fail>",
+        "pass_content" :"  +Enter content <Pass> ",
+        "fail_content":"   +Enter content <Fail> ",
+        "pass_send" :"  +Send whisper <Pass> ",
+        "fail_send":"   +Send whisper <Fail> "
+    },
+    "msg_task" :{
+        "pass_access":"  +Access menu Task <Pass>",
+        "fail_access":"  +Access menu Task <Fail>",
+        "pass_write":"  +Click on write button <Pass>",
+        "fail_write":"  +Click on write button <Fail>",
+        "pass_title_di" :"  +Enter title work diary <Pass> ",
+        "fail_title_di":"   +Enter title work diary <Fail> ",
+        "pass_content" :"  +Enter content <Pass> ",
+        "fail_content":"   +Enter content <Fail> ",
+        "pass_save" :"  +Save work diary <Pass> ",
+        "fail_save":"   +Save work diary <Fail> ",
+        "pass_ic_org":"  +Click on org icon <Pass> ",
+        "fail_ic_org":"  +Click on org icon <Fail> ",
+        "pass_ic_search":"  +Click on search icon <Pass> ",
+        "fail_ic_search":"  +Click on search icon <Fail> ",
+        "pass_recipients":"  +Click on add recipent <Pass> ",
+        "fail_recipients":"  +Click on add recipent <Fail> "
+        
+    },
+   
+    "msg_log" :{
+        "pass_domain" :"  +Input domain ",
+        "pass_id":"  +Input id ",
+        "pass_pass" :"  +Input pass ",
+        "pass_bt_log":"  +Click on login button ",
+        "pass_log" :"  ** Login app <Pass> ** ",
+        "fail_log" :"  ** Login app <Fail> ** "
+    },
+    "msg_mail" :{
+        "pass_ac_menu" :"  +Access menu Mail <Pass> ",
+        "fail_ac_menu":"   +Access menu Mail <Fail> ",
+        "pass_bt_write" :"  +Click on write button <Pass> ",
+        "fail_bt_write":"   +Click on write button <Fail> ",
+        "pass_add_reci" :"  +Add recipients <Pass> ",
+        "fail_add_reci":"   +Add recipients <Fail> ",
+        "pass_title" :"  +Enter title mail <Pass> ",
+        "fail_title":"   +Enter title mail <Fail> ",
+        "pass_content" :"  +Enter content mail <Pass> ",
+        "fail_content":"   +Enter content mail <Fail> ",
+        "pass_no_send" :"  +Not eligible to send mail <Pass> ",
+        "pass_send" :"  +Send mail <Pass> ",
+        "fail_send":"   +Send mail <Fail> ",
+        "pass_sub_sent" : " +Click on sub menu Sent <Pass>",
+        "fail_sub_sent" : " +Click on sub menu Sent <Fail>",
+        "pass_displayed" : " +Mail has shown in the list <Pass>",
+        "fail_displayed" : " +Mail has shown in the list  <Fail>"
+
+    },
+    "msg_board" :{
+        "pass_ac_menu" :"  +Access menu Board <Pass> ",
+        "fail_ac_menu":"   +Access menu Board <Fail> ",
+        "pass_bt_write" :"  +Click on write button <Pass> ",
+        "fail_bt_write":"   +Click on write button <Fail> ",
+        "pass_add_reci" :"  +Add recipients <Pass> ",
+        "fail_add_reci":"   +Add recipients <Fail> ",
+        "pass_title" :"  +Input title board <Pass> ",
+        "fail_title":"   +Input title board <Fail> ",
+        "pass_attach" :"  +Click Attach File button <Pass> ",
+        "fail_attach":"   +Click Attach File button <Fail> ",
+        "pass_content" :"  +Input content board <Pass> ",
+        "fail_content":"   +Input content board <Fail> ",
+        "pass_display" :"  +Update the post in the list <Pass> ",
+        "fail_display":"   +Update the post in the list <Fail> ",
+        "pass_save" :"  +Click save button <Pass> ",
+        "fail_save":"   +Click save button <Fail> "
+
+
+    }
+
+    
+    
+
+
+    
+}
