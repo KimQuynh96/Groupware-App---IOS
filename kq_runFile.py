@@ -6,6 +6,7 @@ from kq_task import task
 from kq_whisper import whisper
 from kq_approval  import approval
 from kq_contact import contact
+from kq_project import project
 
 if login() == True :
     mail()
@@ -14,3 +15,4 @@ if login() == True :
     whisper()
     approval()
     contact()
+    project()

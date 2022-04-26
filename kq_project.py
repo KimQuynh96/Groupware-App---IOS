@@ -3,7 +3,7 @@ from time import time
 from kq_setup import driver
 from kq_lib_common import By , data, time,cm
 
-def contact():
+def project():
 
     work_name = "Project" + cm.to_day()
     driver.find_element_by_xpath(data["project"]["menu"]).click()
