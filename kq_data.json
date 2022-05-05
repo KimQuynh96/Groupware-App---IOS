@@ -88,6 +88,22 @@
         "bt_modi":"//*[@id='ngw.addrbook.container.addrbook_p102_942']/list-view/div/div[1]/div[3]/div/div[1]/div/button[1]"
 
     },
+    "archive":{
+        "menu":"//*[@id='hybridGrid']/li[11]/a",
+        "left":"//button[starts-with(@data-ng-show,'hasSideMenu')]",
+        "my":"//*[@id='mCSB_1_container']/div/ul/li[2]/a",
+        "pass":"//input[starts-with(@data-ng-model,'txtPassword')]",
+        "enter":"//input[starts-with(@data-ng-click,'securityLogin()')]"
+
+    },
+    "msg_archive":{
+        "pass_access":"  +Access menu Archive <Pass>",
+        "fail_access":"  +Access menu Archive <Fail>",
+        "pass_my":"  +Access My Archive Folder <Pass>",
+        "fail_my":"  +Access My Archive Folder <Fail>"
+        
+
+    },
     "msg_contact":{
         "pass_access":"  +Access menu Contact <Pass>",
         "fail_access":"  +Access menu Contact <Fail>",

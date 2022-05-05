@@ -7,6 +7,7 @@ from kq_whisper import whisper
 from kq_approval  import approval
 from kq_contact import contact
 from kq_project import project
+from kq_archive import archive
 
 if login() == True :
     mail()
@@ -16,3 +17,4 @@ if login() == True :
     approval()
     contact()
     project()
+    archive()
