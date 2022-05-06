@@ -93,14 +93,26 @@
         "left":"//button[starts-with(@data-ng-show,'hasSideMenu')]",
         "my":"//*[@id='mCSB_1_container']/div/ul/li[2]/a",
         "pass":"//input[starts-with(@data-ng-model,'txtPassword')]",
-        "enter":"//input[starts-with(@data-ng-click,'securityLogin()')]"
+        "enter":"//input[starts-with(@data-ng-click,'securityLogin()')]",
+        "bt_wr":"//button[starts-with(@data-ng-click,'isEnabledWrite()",
+        "bt_save":"//button[starts-with(@data-ng-click,'processForm()",
+        "ip_title":"//*[@id='form-field-subject']",
+        "save":"//*[@id='message-list']/div[2]/div[2]/span[2]"
 
     },
     "msg_archive":{
         "pass_access":"  +Access menu Archive <Pass>",
         "fail_access":"  +Access menu Archive <Fail>",
         "pass_my":"  +Access My Archive Folder <Pass>",
-        "fail_my":"  +Access My Archive Folder <Fail>"
+        "fail_my":"  +Access My Archive Folder <Fail>",
+        "pass_folder":"  +Enter pass to access folder <Pass>",
+        "fail_folder":"  +Enter pass to access folder <Fail>",
+        "pass_wr" :"  +Click on write icon <Pass>",
+        "fail_wr" :"  +Click on write icon <Fail>",
+        "pass_title" :"  +Enter title  <Pass>",
+        "fail_title" :"  +Enter title <Fail>",
+        "pass_save" :"  +Save archive  <Pass>",
+        "fail_save" :"  +Save archive <Fail>"
         
 
     },
