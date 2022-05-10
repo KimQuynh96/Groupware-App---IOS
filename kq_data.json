@@ -100,6 +100,18 @@
         "save":"//*[@id='message-list']/div[2]/div[2]/span[2]"
 
     },
+    "clouddisk":{
+        "menu":"//p[text()='CloudDisk']",
+        "bt_upload":"//button[starts-with(@data-ng-click,'uploadFiles()')]",
+        "ic_upload":"//*[@id='drop-area']/div[2]/label/span/span"
+        
+    },
+    "msg_cld":{
+        "pass_access":"  +Access menu Contact <Pass>",
+        "fail_access":"  +Access menu Contact <Fail>",
+        "pass_popup":"  +Click on icon to open popup <Pass>",
+        "fail_popup":"  +Click on icon to open popup <Fail>"
+    },
     "msg_archive":{
         "pass_access":"  +Access menu Archive <Pass>",
         "fail_access":"  +Access menu Archive <Fail>",

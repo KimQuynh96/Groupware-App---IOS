@@ -8,6 +8,7 @@ from kq_approval  import approval
 from kq_contact import contact
 from kq_project import project
 from kq_archive import archive
+from kq_clouddisk import clouddisk
 
 if login() == True :
     mail()
@@ -18,3 +19,4 @@ if login() == True :
     contact()
     project()
     archive()
+    clouddisk()
